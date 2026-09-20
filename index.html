@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clément Perez | Recruteur Freelance Lyon — Commercial & RH</title>
+<meta name="description" content="Consultant en recrutement freelance à Lyon, spécialisé Commercial et RH, de l'assistant à la direction. Sourcing, qualification, intégration — et accompagnement à la transition IA pour vos équipes.">
+<meta name="keywords" content="recruteur freelance Lyon, recrutement freelance, cabinet de recrutement indépendant, sourcing commercial, recrutement RH, chasseur de tête freelance, consultant recrutement Lyon">
+<meta name="author" content="Clément Perez">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://votre-compte.github.io/site-recruteur/">
+
+<!-- Open Graph / réseaux sociaux -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Clément Perez | Recruteur Freelance Lyon — Commercial & RH">
+<meta property="og:description" content="Consultant en recrutement freelance à Lyon : sourcing, qualification, intégration — de l'assistant à la direction, sur les pôles Commercial et RH.">
+<meta property="og:url" content="https://votre-compte.github.io/site-recruteur/">
+<meta property="og:site_name" content="Clément Perez — Recrutement freelance">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Clément Perez | Recruteur Freelance Lyon">
+<meta name="twitter:description" content="Consultant en recrutement freelance à Lyon : sourcing, qualification, intégration — Commercial, RH.">
+
+<!-- Données structurées -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Clément Perez — Recrutement freelance",
+  "image": "",
+  "url": "https://votre-compte.github.io/site-recruteur/",
+  "telephone": "+33698987398",
+  "email": "clement.perez@yahoo.fr",
+  "areaServed": ["Lyon", "France"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lyon",
+    "addressCountry": "FR"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Clément Perez",
+    "jobTitle": "Consultant en recrutement freelance",
+    "sameAs": ["https://www.linkedin.com/in/cl%C3%A9ment-perez-089608163/"]
+  },
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Recrutement freelance",
+        "description": "Sourcing, qualification et intégration de candidats sur les pôles Commercial et RH."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Accompagnement transition IA",
+        "description": "Audit, intégration d'outils IA et formation d'équipe, 100% sur mesure."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#141F2E;
+    --ink-2:#1E2E42;
+    --ink-soft:#5B6B80;
+    --paper:#EFEAE0;
+    --paper-raised:#FAF7EF;
+    --accent:#D6A03C;
+    --accent-bright:#E8B559;
+    --accent-deep:#8F6512;
+    --line: rgba(20,31,46,0.14);
+    --line-dark: rgba(250,247,239,0.16);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Work Sans', -apple-system, sans-serif;
+    font-size:16px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{
+    font-family:'Fraunces', Georgia, serif;
+    font-weight:500;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  a{color:inherit;}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 32px;}
+  ::selection{background:var(--accent);color:var(--ink);}
+
+  /* ===== Header ===== */
+  .header-band{background:var(--ink);}
+  header{padding:26px 0;}
+  .header-row{
+    display:flex;justify-content:space-between;align-items:center;
+  }
+  .brand{font-family:'Fraunces',serif;font-size:19px;font-weight:600;color:var(--paper-raised);}
+  nav{display:flex;gap:30px;font-size:14.5px;}
+  nav a{text-decoration:none;color:#B7C0CE;transition:color .15s;}
+  nav a:hover{color:var(--paper-raised);}
+  .header-cta{
+    background:var(--accent);color:var(--ink);
+    padding:10px 20px;border-radius:2px;text-decoration:none;
+    font-size:14px;font-weight:600;transition:background .15s;
+  }
+  .header-cta:hover{background:var(--accent-bright);}
+
+  /* ===== Hero (dark) ===== */
+  .hero-band{
+    background:
+      radial-gradient(ellipse 900px 500px at 85% -10%, rgba(214,160,60,0.18), transparent 60%),
+      var(--ink);
+    color:var(--paper-raised);
+  }
+  .hero{padding:100px 0 0;}
+  .hero-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:56px;align-items:end;}
+  .kicker{
+    color:var(--accent-bright);font-size:14.5px;font-weight:600;
+    margin-bottom:20px;display:flex;align-items:center;gap:10px;
+  }
+  .kicker::before{content:"";width:28px;height:1px;background:var(--accent-bright);display:inline-block;}
+  .hero h1{
+    font-size:58px;line-height:1.06;color:var(--paper-raised);
+  }
+  .hero h1 em{font-style:italic;color:var(--accent-bright);}
+  .hero-sub{
+    margin-top:24px;font-size:18.5px;color:#B7C0CE;max-width:46ch;
+  }
+  .hero-side{
+    border-left:1px solid var(--line-dark);padding-left:32px;
+  }
+  .hero-side p{font-size:15px;color:#98A3B5;margin:0 0 20px;}
+  .hero-facts{display:flex;flex-direction:column;gap:14px;}
+  .hero-fact{display:flex;justify-content:space-between;font-size:14.5px;border-bottom:1px dashed var(--line-dark);padding-bottom:10px;color:#D8DEE8;}
+  .hero-fact span:first-child{color:#8A96A8;}
+
+  .stat-bar{
+    margin-top:64px;border-top:1px solid var(--line-dark);
+    display:grid;grid-template-columns:repeat(4,1fr);
+  }
+  .stat{padding:30px 32px;border-right:1px solid var(--line-dark);}
+  .stat:last-child{border-right:none;}
+  .stat-num{font-family:'Fraunces',serif;font-size:36px;color:var(--accent-bright);font-weight:600;}
+  .stat-label{font-size:13.5px;color:#98A3B5;margin-top:6px;}
+
+  /* ===== Section shell ===== */
+  section{padding:88px 0;}
+  .section-head{display:grid;grid-template-columns:1fr 1.6fr;gap:40px;margin-bottom:52px;}
+  .section-head h2{font-size:34px;}
+  .section-head h2 em{font-style:italic;color:var(--accent-deep);}
+  .section-head p{color:var(--ink-soft);font-size:16px;margin-top:14px;max-width:52ch;}
+
+  /* ===== Secteurs ===== */
+  .sector-grid{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:16px;
+  }
+  .sector{
+    background:var(--paper-raised);padding:28px 24px;min-height:170px;
+    display:flex;flex-direction:column;justify-content:space-between;
+    border-top:3px solid var(--ink);
+    transition:transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+  }
+  .sector:hover{
+    transform:translateY(-4px);
+    border-top-color:var(--accent);
+    box-shadow:0 14px 28px -18px rgba(20,31,46,0.35);
+  }
+  .sector h3{font-size:18px;font-weight:500;}
+  .sector p{font-size:14px;color:var(--ink-soft);margin-top:10px;}
+
+  /* ===== Services ===== */
+  .service-list{display:flex;flex-direction:column;gap:18px;}
+  .service{
+    display:grid;grid-template-columns:240px 1fr;gap:40px;
+    padding:38px;background:var(--paper-raised);
+    border-left:4px solid var(--ink);
+    transition:border-color .18s ease, box-shadow .18s ease;
+  }
+  .service:hover{
+    border-left-color:var(--accent);
+    box-shadow:0 18px 32px -22px rgba(20,31,46,0.4);
+  }
+  .service h3{font-size:24px;}
+  .service-tag{font-size:13px;color:var(--accent-deep);font-weight:600;margin-top:10px;}
+  .service p{color:var(--ink-soft);margin-top:14px;max-width:60ch;}
+  .service ul{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:10px;}
+  .service li{
+    font-size:13.5px;border:1px solid var(--line);border-radius:999px;
+    padding:5px 14px;color:var(--ink-soft);background:var(--paper);
+  }
+  .service-cta{
+    display:inline-flex;align-items:center;gap:6px;margin-top:20px;
+    font-size:14.5px;font-weight:600;color:var(--accent-deep);
+    text-decoration:none;
+  }
+  .service-cta:hover{color:var(--ink);}
+  .service-cta::after{content:"→";transition:transform .15s ease;}
+  .service-cta:hover::after{transform:translateX(3px);}
+
+  /* ===== Tarifs ===== */
+  .price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+  .price-card{
+    background:var(--paper-raised);padding:36px 30px;
+    border:1px solid var(--line);position:relative;
+    display:flex;flex-direction:column;
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  }
+  .price-card.featured{border-color:var(--ink);}
+  .price-card:hover{transform:translateY(-4px);box-shadow:0 20px 36px -22px rgba(20,31,46,0.4);}
+  .price-card-tag{font-size:12.5px;color:var(--accent-deep);font-weight:600;margin-bottom:10px;}
+  .price-card h3{font-size:20px;margin-bottom:4px;}
+  .price-card .price-desc{font-size:13.5px;color:var(--ink-soft);margin-bottom:22px;}
+  .price-row{display:flex;justify-content:space-between;align-items:baseline;padding:14px 0;border-top:1px dashed var(--line);}
+  .price-row:first-of-type{border-top:none;}
+  .price-row-label{font-size:14px;color:var(--ink-soft);}
+  .price-row-val{font-family:'Fraunces',serif;font-size:19px;font-weight:600;color:var(--ink);}
+  .price-est{margin-top:auto;padding-top:20px;font-size:13px;color:var(--ink-soft);border-top:1px solid var(--line);}
+  .price-note{margin-top:28px;font-size:14px;color:var(--ink-soft);max-width:70ch;}
+
+  /* ===== Méthode ===== */
+  .method-band{background:var(--ink-2);color:var(--paper-raised);}
+  .method-band .section-head p{color:#B7C0CE;}
+  .method-band .section-head h2{color:var(--paper-raised);}
+  .method{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative;}
+  .method::before{
+    content:"";position:absolute;top:15px;left:0;right:0;height:1px;background:var(--line-dark);
+  }
+  .step{padding-right:24px;position:relative;}
+  .step-num{
+    display:inline-block;width:30px;height:30px;border-radius:50%;
+    background:var(--accent);color:var(--ink);
+    font-size:13px;text-align:center;line-height:30px;position:relative;z-index:1;
+    margin-bottom:20px;font-family:'Fraunces',serif;font-weight:600;
+  }
+  .step h3{font-size:17px;font-weight:500;color:var(--paper-raised);}
+  .step p{font-size:14px;color:#9AA5B5;margin-top:8px;}
+
+  /* ===== Proof / Parcours ===== */
+  .proof-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  .proof{
+    background:var(--paper-raised);padding:36px 38px;
+    border-top:1px solid var(--line);position:relative;overflow:hidden;
+    transition:box-shadow .18s ease;
+  }
+  .proof::before{
+    content:"";position:absolute;top:0;left:0;width:0%;height:3px;background:var(--accent);
+    transition:width .25s ease;
+  }
+  .proof:hover::before{width:100%;}
+  .proof:hover{box-shadow:0 18px 34px -24px rgba(20,31,46,0.4);}
+  .proof h3{font-size:19px;font-weight:500;margin-bottom:14px;}
+  .proof p{font-size:15px;color:var(--ink-soft);}
+  .proof p + p{margin-top:10px;}
+
+  /* ===== Contact ===== */
+  .contact-band{background:var(--ink);}
+  .contact{
+    color:var(--paper);
+    padding:0;
+    display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center;
+  }
+  .contact h2{color:var(--paper-raised);font-size:36px;}
+  .contact h2 em{font-style:italic;color:var(--accent-bright);}
+  .contact > div:first-child p{color:#B7C0CE;margin-top:16px;max-width:44ch;font-size:16.5px;}
+  .contact-links{display:flex;flex-direction:column;gap:0;}
+  .contact-link{
+    display:flex;justify-content:space-between;align-items:center;
+    border-bottom:1px solid var(--line-dark);padding:16px 0;
+    text-decoration:none;color:var(--paper-raised);font-size:15.5px;
+    transition:padding-left .15s ease;
+  }
+  .contact-link:hover{padding-left:8px;}
+  .contact-link span:last-child{color:var(--accent-bright);font-size:14px;font-weight:500;}
+
+  footer{background:var(--ink);padding:26px 0 40px;font-size:13px;color:#7C879A;display:flex;justify-content:space-between;border-top:1px solid var(--line-dark);}
+
+  @media (max-width:820px){
+    .hero-grid{grid-template-columns:1fr;}
+    .hero-side{border-left:none;padding-left:0;border-top:1px solid var(--line-dark);padding-top:28px;}
+    .hero h1{font-size:40px;}
+    .stat-bar{grid-template-columns:repeat(2,1fr);}
+    .stat{border-bottom:1px solid var(--line-dark);}
+    .section-head{grid-template-columns:1fr;}
+    .sector-grid{grid-template-columns:repeat(2,1fr);}
+    .service{grid-template-columns:1fr;gap:12px;padding:28px;}
+    .method{grid-template-columns:repeat(2,1fr);row-gap:32px;}
+    .method::before{display:none;}
+    .proof-grid{grid-template-columns:1fr;}
+    .contact{grid-template-columns:1fr;}
+    nav{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<div class="header-band">
+  <div class="wrap">
+    <header>
+      <div class="header-row">
+        <div class="brand">Clément Perez</div>
+        <nav>
+          <a href="#expertise">Expertise</a>
+          <a href="#services">Services</a>
+          <a href="#tarifs">Tarifs</a>
+          <a href="#methode">Méthode</a>
+          <a href="#parcours">Parcours</a>
+        </nav>
+        <a class="header-cta" href="#contact">Échanger</a>
+      </div>
+    </header>
+  </div>
+</div>
+
+<main>
+<div class="hero-band">
+  <div class="wrap">
+    <div class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="kicker">Recrutement freelance — Lyon &amp; national</div>
+          <h1>Je recrute pour de <em>vrai</em>, sur le terrain, avant que le poste ne devienne urgent.</h1>
+          <p class="hero-sub">Consultant en recrutement indépendant, spécialisé Commercial &amp; RH, de l'assistant à la direction. J'accompagne aussi les équipes qui veulent intégrer l'IA dans leur process de recrutement.</p>
+        </div>
+        <div class="hero-side">
+          <p>Basé à Lyon, je travaille en direct avec les dirigeants et responsables RH — sourcing, qualification, jusqu'à l'intégration du candidat.</p>
+          <div class="hero-facts">
+            <div class="hero-fact"><span>Expérience</span><span>6 ans en cabinet &amp; en direct</span></div>
+            <div class="hero-fact"><span>Secteurs</span><span>Sales, RH — de l'assistant à la direction</span></div>
+            <div class="hero-fact"><span>Zone</span><span>Lyon, national à distance</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="stat-bar">
+        <div class="stat"><div class="stat-num">6 ans</div><div class="stat-label">De recrutement, en cabinet et en direct</div></div>
+        <div class="stat"><div class="stat-num">2</div><div class="stat-label">Pôles maîtrisés en profondeur</div></div>
+        <div class="stat"><div class="stat-num" style="font-size:26px;">Assistant → Direction</div><div class="stat-label">Tous niveaux de poste couverts, Sales, RH</div></div>
+        <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Suivi jusqu'à l'intégration du candidat</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section id="expertise">
+    <div class="section-head">
+      <h2>Des secteurs que je connais <em>de l'intérieur</em></h2>
+      <p>Sourcing, agence, direct — j'ai recruté dans des contextes différents, ce qui me permet de qualifier vite et juste, sans surcoût d'apprentissage sur votre métier.</p>
+    </div>
+    <div class="sector-grid">
+      <div class="sector">
+        <h3>Commercial &amp; Sales</h3>
+        <p>Tous niveaux de poste, de l'assistant commercial au directeur commercial — commerciaux terrain, business developers, agents indépendants, jusqu'aux postes de direction commerciale.</p>
+      </div>
+      <div class="sector">
+        <h3>RH &amp; Support</h3>
+        <p>Tous niveaux de poste, de l'assistant RH au directeur RH — gestionnaires paie, chargés de recrutement, responsables RH, jusqu'aux postes de direction RH.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="section-head">
+      <h2>Deux façons de <em>travailler ensemble</em></h2>
+      <p>Un accompagnement recrutement classique, ou une refonte de votre process avec l'IA — selon où vous en êtes.</p>
+    </div>
+    <div class="service-list">
+      <div class="service">
+        <div>
+          <h3>Recrutement freelance</h3>
+          <div class="service-tag">Sourcing → Qualification → Intégration</div>
+        </div>
+        <div>
+          <p>Je prends en charge tout ou partie du processus : rédaction et diffusion d'annonces, sourcing actif, entretiens, évaluation des profils, jusqu'au suivi post-intégration.</p>
+          <ul>
+            <li>Sourcing &amp; chasse</li>
+            <li>Entretiens &amp; évaluation</li>
+            <li>Gestion du vivier candidat</li>
+            <li>Suivi d'intégration</li>
+          </ul>
+          <a class="service-cta" href="#tarifs">Voir la grille tarifaire</a>
+        </div>
+      </div>
+      <div class="service">
+        <div>
+          <h3>Transition IA pour vos équipes</h3>
+          <div class="service-tag">100% sur mesure — à échanger ensemble</div>
+        </div>
+        <div>
+          <p>Pour les équipes RH ou commerciales qui veulent gagner du temps : audit de votre structure actuelle, intégration ou création d'outils IA sur-mesure, formation de vos équipes et suivi de l'adoption. Chaque mission est différente, donc pas de grille figée — on cadre ensemble le besoin et le tarif.</p>
+          <ul>
+            <li>Audit de process</li>
+            <li>Outils sur-mesure</li>
+            <li>Formation d'équipe</li>
+            <li>Suivi &amp; ajustement</li>
+          </ul>
+          <a class="service-cta" href="#contact">Sur devis — en discuter ensemble</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tarifs">
+    <div class="section-head">
+      <h2>Une grille <em>simple et alignée</em></h2>
+      <p>Un tarif jour fixe qui couvre l'ensemble du processus — cadrage, création d'offre, sourcing, entretiens, préqualification, transmission — complété par un success fee qui varie selon le salaire annuel brut du poste recruté.</p>
+    </div>
+    <div class="price-grid">
+      <div class="price-card">
+        <div class="price-card-tag">Jusqu'à 35 K€</div>
+        <h3>Salaire annuel brut</h3>
+        <div class="price-desc">Postes juniors, assistants, techniciens</div>
+        <div class="price-row"><span class="price-row-label">Tarif jour</span><span class="price-row-val">250 €</span></div>
+        <div class="price-row"><span class="price-row-label">Success fee</span><span class="price-row-val">4 %</span></div>
+        <div class="price-est">Volume estimé : 6 à 8 jours de mission</div>
+      </div>
+      <div class="price-card featured">
+        <div class="price-card-tag">35 K€ à 55 K€</div>
+        <h3>Salaire annuel brut</h3>
+        <div class="price-desc">Postes confirmés, cadres intermédiaires</div>
+        <div class="price-row"><span class="price-row-label">Tarif jour</span><span class="price-row-val">250 €</span></div>
+        <div class="price-row"><span class="price-row-label">Success fee</span><span class="price-row-val">5 %</span></div>
+        <div class="price-est">Volume estimé : 8 à 10 jours de mission</div>
+      </div>
+      <div class="price-card">
+        <div class="price-card-tag">55 K€ et plus</div>
+        <h3>Salaire annuel brut</h3>
+        <div class="price-desc">Postes de direction, profils rares ou stratégiques</div>
+        <div class="price-row"><span class="price-row-label">Tarif jour</span><span class="price-row-val">250 €</span></div>
+        <div class="price-row"><span class="price-row-label">Success fee</span><span class="price-row-val">7 %</span></div>
+        <div class="price-est">Volume estimé : 10 à 15 jours de mission</div>
+      </div>
+    </div>
+    <div class="price-card" style="margin-top:18px;">
+      <div class="price-card-tag">Mission long terme</div>
+      <h3>Accompagnement continu</h3>
+      <div class="price-desc">Recrutement au fil de l'eau — trimestre, semestre ou année</div>
+      <div class="price-row"><span class="price-row-label">Tarif jour</span><span class="price-row-val">450 €</span></div>
+      <div class="price-row"><span class="price-row-label">Success fee</span><span class="price-row-val">Aucun</span></div>
+      <div class="price-est">Facturation au temps passé, mensuelle, sans engagement de résultat par poste</div>
+    </div>
+    <p class="price-note">Facturation des jours au fil de la mission ou en 2-3 points d'étape (cadrage, shortlist, transmission finale). Le success fee est calculé sur le salaire annuel brut du candidat retenu et n'est dû qu'à l'embauche effective — il ne s'applique pas à l'accompagnement long terme, facturé uniquement au temps passé. Le suivi d'intégration post-embauche peut être inclus sur devis.</p>
+  </section>
+
+</div>
+
+<div class="method-band">
+  <div class="wrap">
+    <section id="methode">
+      <div class="section-head">
+        <h2>Comment je <em>procède</em></h2>
+        <p>Un process simple, quatre étapes, pensé pour aller vite sans sacrifier la qualité du matching.</p>
+      </div>
+      <div class="method">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Brief &amp; cadrage</h3>
+          <p>Poste, contexte, contraintes réelles — pas seulement la fiche de poste.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Sourcing actif</h3>
+          <p>Chasse directe, réseau, annonces ciblées selon le profil recherché.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Qualification</h3>
+          <p>Entretiens approfondis, vérification des références, short-list argumentée.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <h3>Intégration</h3>
+          <p>Suivi du candidat retenu sur ses premières semaines dans le poste.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section id="parcours">
+    <div class="section-head">
+      <h2>Ce que le terrain <em>m'a appris</em></h2>
+      <p>Pas un CV ligne par ligne — plutôt ce que chaque contexte m'a permis de développer, et que je mets aujourd'hui au service de vos recrutements.</p>
+    </div>
+    <div class="proof-grid">
+      <div class="proof">
+        <h3>Sourcer en volume, sans perdre en qualité</h3>
+        <p>J'ai construit des fichiers de prospection de plusieurs centaines de contacts par mois et piloté des campagnes de sourcing sur plusieurs canaux à la fois (LinkedIn, mailing, phoning). Je diffuse mes annonces en multi-jobboard (Indeed, HelloWork, CVAdent...) et je pilote mes viviers candidats via des outils CRM/ATS adaptés à chaque mission.</p>
+        <p>Je mobilise aussi l'IA au quotidien pour aller plus vite sans perdre en qualité : rédaction et optimisation d'annonces, outils d'automatisation et d'enrichissement de fichiers (scraping, sales navigator, séquences d'approche multicanal) pour industrialiser le sourcing tout en gardant une qualification fine à l'entretien.</p>
+      </div>
+      <div class="proof">
+        <h3>Recruter en cabinet spécialisé</h3>
+        <p>J'ai autant travaillé pour de petits cabinets régionaux que pour des acteurs classés dans le top 3 mondial du recrutement — deux échelles, deux méthodes, la même exigence. J'ai géré le cycle complet — tri de CV, entretiens, prise de références, proposition — sur des métiers techniques (IT, industrie, RH &amp; Paie). J'ai aussi managé des équipes de consultants et suivi leurs indicateurs de performance.</p>
+      </div>
+      <div class="proof">
+        <h3>Recruter pour un réseau qui grandit</h3>
+        <p>Sur le recrutement de concessionnaires et agents commerciaux pour un réseau national, je qualifie des profils entrepreneuriaux où l'enjeu n'est pas qu'un poste, mais un projet de vie. Ça demande un accompagnement plus long, plus humain, que je retrouve dans chaque recrutement que je mène.</p>
+      </div>
+      <div class="proof">
+        <h3>Comprendre le terrain commercial de l'intérieur</h3>
+        <p>Trois ans comme agent commercial indépendant en immobilier, puis en développement business, m'ont appris à évaluer un profil commercial pour de vrai — pas seulement sur un CV, mais sur sa capacité réelle à prospecter, négocier et tenir un objectif.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<div class="contact-band">
+  <div class="wrap">
+    <section id="contact">
+      <div class="contact">
+        <div>
+          <h2>Un poste à pourvoir, <em>ou un process à repenser</em> ?</h2>
+          <p>Parlons-en directement — je réponds sous 24h.</p>
+        </div>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:clement.perez@yahoo.fr"><span>Email</span><span>clement.perez@yahoo.fr</span></a>
+          <a class="contact-link" href="tel:0698987398"><span>Téléphone</span><span>06 98 98 73 98</span></a>
+          <a class="contact-link" href="https://www.linkedin.com/in/cl%C3%A9ment-perez-089608163/" target="_blank" rel="noopener"><span>LinkedIn</span><span>Voir le profil</span></a>
+          <a class="contact-link" href="#" style="border-bottom:none;"><span>Zone</span><span>Lyon &amp; national</span></a>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;">
+    <span>Clément Perez — Recrutement freelance</span>
+    <span>Lyon, France</span>
+  </div>
+</footer>
+
+</body>
+</html>
