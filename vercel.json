@@ -1,0 +1,5 @@
+{
+  "cleanUrls": true,
+  "git": { "deploymentEnabled": { "*": false, "landing": true } },
+  "headers": [{ "source": "/img/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] }]
+}

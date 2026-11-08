@@ -1,0 +1,20 @@
+# Clément Perez · Product Builder IA
+
+> Product Builder IA & No-code basé à Lyon (Sathonay-Camp). Je transforme un besoin métier en produit en ligne : SaaS, sites optimisés SEO/GEO, CRM sur mesure, agents IA et automatisations. Co-fondateur de PairIo, SaaS de matching immobilier propulsé par l'IA, lancé fin octobre 2026.
+
+## Réalisations
+- PairIo : SaaS de matching immobilier IA, chaque bien noté sur 100 selon le profil acheteur, plus de 50 millions d'annonces indexées ; refonte de l'app en méthode BMAD.
+- Site d'une agence immobilière lyonnaise : refonte d'un site immobilier multi-pages optimisé SEO/GEO, déployé sur Vercel.
+- Missions TPE : charte, site vitrine, plaquettes, audit SEO/GEO, assistant community manager IA.
+- Plateforme écoles et étudiants : espaces connectés par profil, CRM interne.
+- Sites personnels : ce site en 3D animée et un site recruteur freelance.
+- Agents IA de prospection : sourcer, enrichir, scorer, écrire, relancer, suivre.
+- Automatisation documentaire : 66 slides reconstruites, 58 pages de PDF nettoyées.
+- Jarvis : assistant IA personnel construit pour s'entraîner.
+- Missions B2B : CRM de prospection sur mesure, audits SEO/GEO.
+- Contenu court : stratégie et kit de production de Shorts.
+
+## Contact
+- Email : clement.perez@yahoo.fr
+- LinkedIn : https://www.linkedin.com/in/clement-perez-ia
+- Site : https://clement-perez-product-builder.vercel.app/
